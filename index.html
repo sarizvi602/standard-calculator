@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator </title>
+  <link href="http://allfont.net/allfont.css?fonts=ds-digital" rel="stylesheet" type="text/css" />
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="calcBody">
+  <h1 class="text-center">Pocket Calculator</h1>
+  <!--display expression in first line and current Number or result in next line-->
+  <p><span id="displayNum" class="text-right"></span><br>
+    <span id="showResult" class="text-right"></span></p>
+  <br>
+  <div class="buttons">
+    <!--On and Off button-->
+    <a class="btn btn-success" id="onOff"><sup>ON</sup>/<sub>OFF</sub></a>
+    <!--All clear button-->
+    <a class="btn btn-danger" id="clearAll"> AC </a>
+    <!--clear current entry button-->
+    <a class="btn btn-danger" id="clearEntry"> CE </a>
+    <!--divide button-->
+    <a class="btn btn-info" id="divide"> &divide; </a>
+    <br>
+    <!--7 button-->
+    <a class="btn btn-primary" id="seven"> 7 </a>
+    <!--8 button-->
+    <a class="btn btn-primary" id="eight"> 8 </a>
+    <!-- 9 button-->
+    <a class="btn btn-primary" id="nine"> 9 </a>
+    <!--multiplication button-->
+    <a class="btn btn-info" id="multiply"> &times; </a>
+    <br>
+    <!--4 button-->
+    <a class="btn btn-primary" id="four"> 4 </a>
+    <!--5 button-->
+    <a class="btn btn-primary" id="five"> 5 </a>
+    <!--6 button-->
+    <a class="btn btn-primary" id="six"> 6 </a>
+    <!--subtraction button-->
+    <a class="btn btn-info" id="subtract"> &minus; </a>
+    <br>
+    <!--1 button-->
+    <a class="btn btn-primary" id="one"> 1 </a>
+    <!--2 button-->
+    <a class="btn btn-primary" id="two"> 2 </a>
+    <!--3 button-->
+    <a class="btn btn-primary" id="three"> 3 </a>
+    <!--addition button-->
+    <a class="btn btn-info" id="add"> &plus; </a>
+    <br>
+    <!--0 button-->
+    <a class="btn btn-primary" id="zero"> 0 </a>
+    <!--decimal button-->
+    <a class="btn btn-primary" id="decimal"> . </a>
+    <!--change sign button-->
+    <a class="btn btn-primary" id="plusminus"> &plus;/&minus; </a>
+    <!--equal button/Show result-->
+    <a class="btn btn-success" id="equal"> = </a>
+  </div>
+</div>
+<div class="footer text-center">Written and coded by <strong>Syed Rizvi</strong></div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

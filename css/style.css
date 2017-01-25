@@ -1,0 +1,68 @@
+body {
+  background-image: url('http://usabjl.com/wp-content/uploads/2016/10/Wood-Table-Background-Cool-SPA12.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.calcBody {
+  width: 360px;
+  height: 425px;
+  margin: 100px auto;
+  padding: 5px;
+  background-color: #000;
+  color: #FFF;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 15px 10px 5px #333;
+}
+
+p {
+  height: 70px;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 0px 30px;
+  padding-bottom: 80px;
+  background-color: #FFF;
+  border-radius: 5px;
+  text-align: right;
+  font-family: 'DS-Digital', arial;
+  color: #000;
+}
+
+#displayNum {
+  font-size: 20px;
+}
+
+#showResult {
+  font-size: 40px;
+}
+
+.btn-primary {
+  background-color: #C0C0C0;
+}
+
+.buttons a {
+  display: block;
+  width: 85px;
+  height: 45px;
+  line-height: 45px;
+  float: left;
+  padding: 0px;
+  margin: 1px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  border-radius: 10px;
+}
+
+#onOff {
+  font-size: 23px;
+}
+
+.footer {
+  color: white;
+}
